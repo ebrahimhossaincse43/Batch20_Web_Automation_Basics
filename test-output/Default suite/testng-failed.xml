@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ebrahim.FirstAutomation">
+      <class name="com.ebrahim.LocatorExamples">
         <methods>
+          <include name="startBrowser"/>
+          <include name="locatorTest"/>
           <include name="close"/>
-          <include name="openUrl"/>
         </methods>
-      </class> <!-- com.ebrahim.FirstAutomation -->
+      </class> <!-- com.ebrahim.LocatorExamples -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
