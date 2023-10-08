@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-07T12:47:21 EDT" name="Default suite" finished-at="2023-10-07T12:47:44 EDT" duration-ms="23725">
+  <suite started-at="2023-10-08T13:18:55 EDT" name="Default suite" finished-at="2023-10-08T13:19:08 EDT" duration-ms="12539">
     <groups>
     </groups>
-    <test started-at="2023-10-07T12:47:21 EDT" name="Default test" finished-at="2023-10-07T12:47:44 EDT" duration-ms="23725">
-      <class name="com.ebrahim.LocatorExamples">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.ebrahim.LocatorExamples@437da279]" started-at="2023-10-07T12:47:18 EDT" name="startBrowser" finished-at="2023-10-07T12:47:21 EDT" duration-ms="3169" status="PASS">
+    <test started-at="2023-10-08T13:18:55 EDT" name="Default test" finished-at="2023-10-08T13:19:08 EDT" duration-ms="12539">
+      <class name="com.ebrahim.DropDownExamples">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.ebrahim.DropDownExamples@6253c26]" started-at="2023-10-08T13:18:53 EDT" name="startBrowser" finished-at="2023-10-08T13:18:55 EDT" duration-ms="2704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="locatorTest()[pri:0, instance:com.ebrahim.LocatorExamples@437da279]" started-at="2023-10-07T12:47:21 EDT" name="locatorTest" finished-at="2023-10-07T12:47:44 EDT" duration-ms="23705" status="PASS">
+        <test-method signature="dropDownTest()[pri:0, instance:com.ebrahim.DropDownExamples@6253c26]" started-at="2023-10-08T13:18:56 EDT" name="dropDownTest" finished-at="2023-10-08T13:19:08 EDT" duration-ms="12497" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locatorTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.ebrahim.LocatorExamples@437da279]" started-at="2023-10-07T12:47:44 EDT" name="close" finished-at="2023-10-07T12:47:45 EDT" duration-ms="962" status="PASS">
+        </test-method> <!-- dropDownTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ebrahim.DropDownExamples@6253c26]" started-at="2023-10-08T13:19:08 EDT" name="close" finished-at="2023-10-08T13:19:09 EDT" duration-ms="567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.ebrahim.LocatorExamples -->
+      </class> <!-- com.ebrahim.DropDownExamples -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
