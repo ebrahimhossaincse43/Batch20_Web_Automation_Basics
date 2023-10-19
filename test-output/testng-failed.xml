@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ebrahim.DropDownExamples">
+      <class name="com.ebrahim.WaitsExamples">
         <methods>
           <include name="startBrowser"/>
+          <include name="locatorTest"/>
           <include name="close"/>
-          <include name="dropDownTest"/>
         </methods>
-      </class> <!-- com.ebrahim.DropDownExamples -->
+      </class> <!-- com.ebrahim.WaitsExamples -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
